@@ -75,6 +75,7 @@ game.onUpdate(function () {
     }
     if (scene.cameraProperty(CameraProperty.X) < 96) {
         mySprite.x += 16
-        loadNewCol()
+        xInMap += -2
+        loadNewCol2()
     }
 })
