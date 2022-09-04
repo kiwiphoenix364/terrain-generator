@@ -56,7 +56,7 @@ controller.moveSprite(mySprite, 300, 300)
 scene.cameraFollowSprite(mySprite)
 x = []
 x2 = []
-rng = Random.createRNG(randint(0, 99999999999999))
+rng = Random.createRNG(randint(0, 1048576))
 y = 6
 for (let x3 = 0; x3 <= 14; x3++) {
     x.push(Math.constrain(y + rng.randomRange(-2, 2), 3, tilemapHeight))
